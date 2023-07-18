@@ -1,0 +1,117 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<title>Snowboard - Home page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--INIZIO LIGHTBOX-->
+	<link rel="stylesheet" href="css/lightbox.css">
+	<script src="./js/script_light/jquery-1.10.2.min.js"></script>
+	<script src="./js/script_light/lightbox-2.6.min.js"></script>
+	<script src="./js/script_light/modernizr.custom.js"></script>
+	<!--FINE LIGHTBOX-->
+	<!--INIZIO NIVOSLIDER-->
+	<link rel="stylesheet" href="css/default.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/script_nivo/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="js/script_nivo/jquery.nivo.slider.js"></script>
+	<script type="text/javascript" src="js/script_nivo/jquery.nivo.slider.pack.js"></script>
+
+	<script type="text/javascript">
+		$(window).load(function () {
+			$('#slider').nivoSlider({
+		effect: 'random',
+		slices: 1,
+		boxCols: 1,
+		boxRows: 4,
+		animSpeed: 500,
+		pauseTime: 3000,
+		startSlide: 0,
+		directionNav: true,
+		controlNav: true,
+		controlNavThumbs: false,
+		pauseOnHover: true,
+		manualAdvance: false,
+		prevText: 'Prev',
+		nextText: 'Next',
+		randomStart: false,
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){},
+		lastSlide: function(){},
+		afterLoad: function(){}
+		});
+		});
+	</script>
+	<!--FINE NIVOSLIDER-->
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<!-- Inizio Sezione 1 -->
+		<header>
+			<a href="index.html"><img src="img/logo.jpg" alt="Logo sito con testo Snowboard Free Style Addicted"
+					title="Visita la pagina principale"></a>
+			<nav>
+				<ul>
+					<li><a href="index.html" class="pagsel">Home</a></li>
+					<li><a href="stili.html">Stili</a></li>
+					<li><a href="tavola.html">Tavola</a></li>
+					<li><a href="sicurezza.html">Sicurezza</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Fine Sezione 1 -->
+
+		<!-- Inizio Sezione 2 -->
+		<div class="theme-default">
+			<div id="slider" class="nivoSlider">
+				<img src="img/slider/slider.jpg"
+					alt="Snowboard sospeso in aria e testo Jump babi Jump - Tutte le tecniche per imparare a valore con la tua tavola in completa sicurezza">
+				<img src="img/slider/slider2.jpg" alt="Baita in montagna su pista da snowboard">
+				<img src="img/slider/slider3.jpg" alt="Pista da snowboard vista dall'alto">
+			</div>
+	</div>
+		<!-- Fine Sezione 2 -->
+
+		<!-- Inizio Sezione 3 -->
+		<article>
+			<h1>Storia</h1>
+			<p>Il primo snowboard moderno è considerato lo <a href="https://it.wikipedia.org/wiki/Snurfer"
+					target="_blank">snurfer</a> (nome che fonde snow e <a href="https://it.wikipedia.org/wiki/Surf"
+					target="_blank">surfer</a>), costruito dall'ingegnere Sherman Poppen per far divertire i figli.
+				L'intento iniziale dell'ingegnere era di produrre una versione casalinga del <a
+					href="https://it.wikipedia.org/wiki/Monosci" target="_blank">monosci</a>,</p>
+			<figure class="img_sx"><a href="img/large/home_page.jpg" data-lightbox="single-image"><img
+						src="img/home_page.jpg" alt="Snowboarder sospeso in aria con tavola da snowboard rossa"></a>
+				<figcaption>Snowboarder in azione</figcaption>
+			</figure>
+			<p class="pulisci">ma i figli lo "cavalcavano" trasversalmente dando così l'idea di surfisti sulla neve e
+				così l'inventore pensò di adattare un vero surf da onda aggiungendo dei bordi metallici e di brevettare
+				l'attrezzo col nome, appunto, di snurfer.</p>
+			<p>Nel <a href="https://it.wikipedia.org/wiki/1979" target="_blank">1979</a> si tenne al Pando Ski Lodge,
+				nel <a href="https://it.wikipedia.org/wiki/Michigan" target="_blank">Michigan</a>, il primo World
+				Snurfing Championship (Campionato mondiale di snurfing) a cui partecipò anche <a
+					href="https://it.wikipedia.org/wiki/Jake_Burton_Carpenter" target="_blank">Jake Burton Carpenter</a>
+				con una tavola di sua costruzione. Tuttavia ci furono molte proteste per la sua partecipazione alla gara
+				con una tavola diversa dallo snurfer, venne perciò istituita una sezione a parte, che fu ovviamente
+				vinta da Carpenter, in quanto unico partecipante. Quella gara è considerata la prima vera gara di
+				snowboard.</p>
+			<p>Fonte Wikipedia</p>
+		</article>
+		<!-- Fine Sezione 3 -->
+
+		<!-- Inizio Sezione 4 -->
+		<footer>
+			Sito creato da William Paz &copy;
+		</footer>
+		<!-- Fine Sezione 4 -->
+	</div>
+</body>
+
+</html>
